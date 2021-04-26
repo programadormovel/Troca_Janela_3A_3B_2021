@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Troca_Janela_3A_3B_2021"

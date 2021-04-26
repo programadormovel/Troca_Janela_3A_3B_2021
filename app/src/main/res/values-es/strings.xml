@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3A_3B_Troca_Janela_2021</string>
+    <string name="texto1">Escribe un texto:</string>
+    <string name="botao1">Cambiar ventana</string>
+    <string name="texto2">Segunda Ventana</string>
+    <string name="botao2">" VOLVER A LA PRIMERA VENTANA"</string>
+</resources>

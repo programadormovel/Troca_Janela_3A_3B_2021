@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">3A_3B_Troca_Janela_2021</string>
+    <string name="texto1">Type a text:</string>
+    <string name="botao1">MOVE TO NEXT WINDOW</string>
+    <string name="texto2">Second Window</string>
+    <string name="botao2">TURN BACK TO FIRST WINDOW</string>
+</resources>
