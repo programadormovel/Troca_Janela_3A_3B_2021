@@ -30,8 +30,10 @@ public class Janela2Activity extends AppCompatActivity {
         // Trocar o texto do label
         textoDaJanela.setText(textoRecebido + " - " + it.getIntExtra("numero_aleatorio", 0));
 
+        // Vínculo do botão da janela
         btnTela2 = findViewById(R.id.btn_tela2);
 
+        // Troca de Janela, desta para a anterior
         btnTela2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

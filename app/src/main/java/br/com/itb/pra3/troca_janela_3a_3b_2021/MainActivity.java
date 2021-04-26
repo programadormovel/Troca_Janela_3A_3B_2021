@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
                 it.putExtra("numero_aleatorio", (int) Math.floor(Math.random() * 100) + 1);
 
                 // Check if we're running on Android 5.0 or higher
+                // Checando se o aparelho esta rodando Android 5.0 ou superior
+                // Assim a animação é executada na troca de janela
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                     // Apply activity transition
                     startActivity(it,
@@ -48,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                                     MainActivity.this).toBundle());
                 } else {
                     // Swap without transition
+                    // Troca de Janela sem transição ou animação
                     startActivity(it);
                 }
 
